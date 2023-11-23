@@ -1,78 +1,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans:wght@100&family=Lemonada&family=Noto+Sans+NKo+Unjoined&family=Orbitron&family=Pixelify+Sans&family=Red+Hat+Display:wght@300&family=Roboto:wght@900&display=swap");
-main {
+body {
     background-color: blanchedalmond;
 }
-.flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;
-    justify-content: space-around;
-    background-color: #ff914d;
-    padding: 10px 0;
-    margin: 0;
-}
-.center {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-}
 
-
-.ddl{
+/* bouton reseaux sociaux */
+.reseauNav{
+    margin: 0%;
+}
+.ddl, .insta, .x{
     position: fixed;
+    color: #344151;
+    background-color: #ff914d;
+    text-align: center;
+    border: #050321 solid 2px;
+    width: 10%;
+    z-index: 2;
+
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px 50px 50px 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    cursor: pointer;
+}
+
+.ddl:hover, .insta:hover, .x:hover {
+    background-color: #344151;
+    color: #ff914d;
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+}
+.ddl{
     top: 3px;
     left: 3px;
-    color: #344151;
-    background-color: #ff914d;
-    text-align: center;
-    border: #050321 solid 2px;
-    width: 10%;
-    z-index: 2;
     padding: 3% 0%;
-    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-    border-radius: 50px 50px 50px 50px;
-    transition : 1000ms;
-    transform: translateY(0);
-    cursor: pointer;
 }
-
-.ddl:hover {
-    background-color: #344151;
-    color: #ff914d;
-    transition : 1000ms;
-    padding: 10px 50px;
-    transform : translateY(-0px);
-}
-.insta, .x {
-    position: fixed;
+.insta {
     top: 50px;
     left: 3px;
-    color: #344151;
-    background-color: #ff914d;
-    text-align: center;
-    border: #050321 solid 2px;
-    width: 10%;
-    z-index: 2;
-    padding: 0% 0%;
-    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-    border-radius: 50px 50px 50px 50px;
-    transition : 1000ms;
-    transform: translateY(0);
-    cursor: pointer;
+}
+.x {
+    top: 97px;
+    left: 3px;
 }
 
-.insta,.x:hover {
-    background-color: #344151;
-    color: #ff914d;
-    transition : 1000ms;
-    padding: 10px 50px;
-    transform : translateY(-0px);
+.insta:hover  {
+    padding: 0 47px;
 }
-
+.x:hover{
+    padding: 0 44px;
+}
+/* mon moniteur */
 .ontop {
     position: absolute;
     top: 17%;
@@ -114,9 +92,56 @@ main {
         left: -800px;
     }
 }
-.presentationtxt{
+/* Présentation */
+.presentationTxt{
     flex-direction: row;
     flex-wrap: wrap;
+}
+.mesCompetences>img{
+    width: 100%;
+}
+/* Mes compétences */
+#paintIcon{
+    width: 50%;
+    padding: 10% 25%;
+}
+#savoireEtre{
+    display: flex;
+    flex-direction: column;
+}
+#savoireFaire
+/* Porte folio */
+.fanmanga{
+    flex-direction: row;
+    width: 100;
+}
+.fanmanga>a{
+    width: 40%;
+}
+/* Photo Profil */
+.imageprofil {
+    width: 50%;
+    display: block;
+    margin: 0;
+}
+/* Nave */
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #ff914d;
+    padding: 10px 0;
+    margin: 0;
+}
+.center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 #burger:checked ~ ul > li {
     display: inline;
@@ -152,9 +177,7 @@ i {
 nav {
     display: none;
 }
-.imageprofil {
-    width: 50%;
-}
+
 ul {
     display: flex;
     flex-direction: column;
