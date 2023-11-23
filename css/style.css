@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans:wght@100&family=Lemonada&family=Noto+Sans+NKo+Unjoined&family=Orbitron&family=Pixelify+Sans&family=Red+Hat+Display:wght@300&family=Roboto:wght@900&display=swap");
+main {
+    background-color: blanchedalmond;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #ff914d;
+    padding: 10px 0;
+    margin: 0;
+}
+.center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+.ddl{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ff914d;
+    width: 20%;
+    text-align: center;
+    border: #050321 solid 2px;
+    width: 10%;
+    border-radius: 50%;
+    z-index: 2;
+
+}
+.ddl:hover {
+    background-color: #344151;
+}
+.ddl a:hover {
+    color: #ff914d;
+}
+
+.ontop {
+    position: absolute;
+    top: 17%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.table {
+    height: 10%;
+}
+.table .monitor-wrapper {
+    background: #050321;
+    width: 90%;
+    height: 50%;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.table .monitor-wrapper .monitor {
+    width: 90%;
+    height: 60%;
+    background-color: #344151;
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: inset 0px 5px 10px 2px rgba(0, 0, 0, 0.3);
+}
+.table p {
+    font-family: "Caveat", cursive;
+    font-size: x-large;
+    position: relative;
+    display: inline-block;
+    animation: move 15s infinite linear;
+    color: #ff914d;
+    background-color: none;
+}
+@keyframes move {
+    from {
+        left: 500px;
+    }
+    to {
+        left: -800px;
+    }
+}
+#burger:checked ~ ul > li {
+    display: inline;
+}
+.chequebox {
+    display: none;
+}
+#burger:checked ~ nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    display: block;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 3;
+}
+i {
+    font-size: 2.5em;
+}
+.burger {
+    margin: 0 7%;
+}
+nav {
+    display: none;
+}
+.imageprofil {
+    width: 50%;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    height: 92vh;
+    backdrop-filter: blur(10px);
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+li {
+    width: 100%;
+    font-size: 2.2rem;
+    margin: 2px;
+    list-style: none;
+}
+
+nav a:hover {
+    color: #ff914d;
+    background-color: #344151;
+}
+.logocontact > i {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 7%;
+}
+nav a {
+    background-color: #ff914d;
+    border-radius: 10px;
+    padding: 15px;
+    text-decoration: none;
+    color: #f0f8ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: "Caveat", cursive;
+    font-size: xxx-large;
+}
+h1,
+h2,
+h3 {
+    font-family: "Caveat", cursive;
+    font-size: xx-large;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    background-color: #ff914d;
+}
+h3 {
+    font-family: "Caveat", cursive;
+    font-size: xx-large;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    color: #ff914d;
+    background-color: #344151;
+    border-radius: 50%;
+}
+.presentation p {
+    font-family: "Caveat", cursive;
+    font-size: x-large;
+    width: 100%;
+    padding: 5%;
+    margin-top: 5%;
+}
+a > img {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    box-sizing: border-box;
+}
+.logo {
+    width: calc(50% / 3);
+    margin: auto;
+}
+section > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
