@@ -12,6 +12,11 @@ body {
 }
 
 /* bouton reseaux sociaux */
+.reseauNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 .reseauNav>a{
     margin: 0%;
     width: calc(100%3);
@@ -58,6 +63,9 @@ body {
 }
 .x:hover{
     padding: 0 44px;
+}
+.profile{
+    display:contents ;
 }
 /* mon moniteur */
 .ontop {
