@@ -6,15 +6,19 @@
     <link rel="stylesheet" href="./css/reset.css" />    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swipe.js"></script>
     <title>CV</title>
 </head>
 <body>
     <header>
-        <section class="reseauNav">
+        <div class="reseauNav">
                 <a class="ddl" href="./images/Aurélien-Meunier.pdf" target="_blank">CV</a>
                 <a class="insta" href="https://www.instagram.com/oni_tetsubo_officiel_/"> <img src="images/Instagram.png" alt=""> </a> </a>
                 <a class="x" href="https://twitter.com/OniTetsubo59"> <img src="images/X.png" alt=""> </a> </a>
-        </section>
+        </div>
         <img class="imageprofil" src="./images/Blue and Peach Gradient Facebook Profile Picture.png" alt="">
         <div class="table ontop">
             <div class="monitor-wrapper center">
@@ -60,51 +64,77 @@
                         <p>-Réaliser des prestations</p>
                     </div>
                 </div>
+                <div>
             <h2 id="portefolio">Portefolio</h2>
-                <div >
-                    <h3>Livres Officiels</h3>
-                    <div>
-                    <a href=""> <img src="images/livre.jpg" alt=""> </a>
+                    <div >
+                        <h3>Livres Officiels</h3>
+                        <a href=""> <img src="images/livre.jpg" alt=""> </a>
                     </div>
-                    <h3>Fan Manga</h3>
-                    <div class="fanmanga">
-                    <a href=""> <img src="images/dbza1.jpg" alt=""> </a>
-                    <a href=""> <img src="images/dbza2.jpg" alt=""> </a>
-                    </div>
-                    <h3>Illustrations</h3>
-                    <a href=""> <img src="images/illustration.jpg" alt=""> </a>
-                </div>
+            <h3>Avis</h3>
+                    <div class="avis" >
+                        <div class="positionRelative">  
+                            <a href=""> <img src="images/avis0.png" alt=""> </a>
+                            <div class="positionAbsolute marquee-rtl">
+                                <p>SARACONTEQUOISURINTERNET:"C'est atypique je trouves pour des histoires pour enfants et c'est ce qui m'a tout de suite plu, car j'essaie d'apprendre à mon enfant qu'il n'y a pas de bonne façon de faire ou de penser !"</p>
+                            </div>  
+                        </div>
+            <h3>Fan Manga</h3>
+                        <div class="fanmanga">
+                            <a href=""> <img src="images/dbza1.jpg" alt=""> </a>
+                            <a href=""> <img src="images/dbza2.jpg" alt=""> </a>
+                        </div>
         </section>
     </main>
-</body>
-<footer>
-    <div class="flex">
-        <div class="logocontact flex">
-            <i class="fa-solid fa-phone-volume"></i>
-            <i class="fa-solid fa-envelope"></i>   
-            <div class="burger">
-                <label for="burger"><i class="fa-solid fa-bars"></i></label> 
-                <input class="chequebox" type="checkbox" id="burger">
-                <nav>
-                    <ul>
-                        <li class="li">
-                            <a href="#compétences">Compétences</a>
-                        </li>
-                        <li class="li">
-                            <a href="logiciel"> logiciel</a>
-                        </li>
-                        <li class="li">
-                            <a href="experience">Expériences</a>
-                        </li>
-                        <li>
-                            <a href="#portefolio">Portefolio</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
     </div>
-</footer>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+  
+  <footer>
+      <div class="flex">
+          <div class="logocontact flex">
+              <i class="fa-solid fa-phone-volume"></i>
+              <i class="fa-solid fa-envelope"></i>   
+              <div class="burger">
+                  <label for="burger"><i class="fa-solid fa-bars"></i></label> 
+                  <input class="chequebox" type="checkbox" id="burger">
+                  <nav>
+                      <ul>
+                          <li class="li">
+                              <a href="#compétences">Compétences</a>
+                          </li>
+                          <li class="li">
+                              <a href="logiciel"> logiciel</a>
+                          </li>
+                          <li class="li">
+                              <a href="experience">Expériences</a>
+                          </li>
+                          <li>
+                              <a href="#portefolio">Portefolio</a>
+                          </li>
+                      </ul>
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </footer>
+</body>
 
 
 </html>
