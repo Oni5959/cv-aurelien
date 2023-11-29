@@ -259,8 +259,7 @@ h3 {
     font-family: "Caveat", cursive;
     font-size: x-large;
     width: 100%;
-    padding: 5%;
-    margin-top: 5%;
+    text-align: center;
 }
 a > img {
     width: 100%;
@@ -278,24 +277,9 @@ section > div {
     flex-direction: column;
     justify-content: space-evenly;
 }
-.marquee-rtl {
-    max-width: 30em;                      
-    margin: 1em auto 2em;
-    border: 10px solid #F0F0FF;
-    overflow: hidden;           
-    box-shadow: 0 .25em .5em #CCC,inset 0 0 1em .25em #CCC;
-}
-.marquee-rtl > :first-child {
-    display: inline-block;                
-    padding-right: 2em;                   
-    padding-left: 100%;                   
-    white-space: nowrap;     
-    animation: defilement-rtl 15s infinite linear;
-    animation-name: defilement-rtl;       
-    animation-duration: 15s;              
-    animation-iteration-count: infinite; 
-}
+.swiper-slider{
 
+}
 .fanmanga{
     display: flex;
     flex-direction: row;
@@ -306,7 +290,24 @@ section > div {
 }
 .positionAbsolute{
     position: absolute;
-    top: 378%;
+    bottom: 30px;
+}
+.positionRelative{
+    position: relative;
+}
+
+.container_avis{
+    border: #050321 solid 5px;
+    box-sizing: border-box;
+    border-radius: 25% ;
+    width: 100%;
+    height: 160px;
+    background-color: #f0f8ff;
+}
+
+.swiper {
+    width: 100%;
+    height: 150px;
 }
 
 
@@ -333,10 +334,3 @@ section > div {
 
 
 
-
-
-.swiper {
-    width: 600px;
-    height: 300px;
-  }
-  

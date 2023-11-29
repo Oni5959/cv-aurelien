@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="js/swipe.js"></script>
     <title>CV</title>
 </head>
 <body>
@@ -76,66 +75,81 @@
                     <div class="avis" >
                         <div class="positionRelative">  
                             <a href=""> <img src="images/avis0.png" alt=""> </a>
-                            <div class="positionAbsolute marquee-rtl">
-                                <p>SARACONTEQUOISURINTERNET:"C'est atypique je trouves pour des histoires pour enfants et c'est ce qui m'a tout de suite plu, car j'essaie d'apprendre à mon enfant qu'il n'y a pas de bonne façon de faire ou de penser !"</p>
-                            </div>  
+                                <div class="container_avis positionAbsolute">
+                                    <div class="swiper ">
+                                        <!-- Additional required wrapper -->
+                                        <div class="swiper-wrapper ">
+                                            <!-- Slides -->
+                                            <div class="swiper-slide">
+                                                <p> SARACONTEQUOISURINTERNET: <br>
+                                                    "C'est atypique je trouve pour des histoires pour enfants,
+                                                    c'est ce qui m'a tout de suite plu,
+                                                    car j'essaie d'apprendre à mon enfant
+                                                    qu'il n'y a pas de bonne fançon de faire ou de penser !"
+                                                </p>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <p> LA TRIBU D'ELSA: <br>
+                                                    "C'est une belle colletion pour initier nos petits à la lecture manga ! <br>
+                                                    Pour moi, c'est vraiment une agréable surprise !"
+                                                </p>
+                                            </div>
+                                            <div class="swiper-slide">Slide 3</div>
+                                            <div class="swiper-slide">Slide 4</div>
+                                            <div class="swiper-slide">Slide 5</div>
+                                            <div class="swiper-slide">Slide 6</div>
+                                            <div class="swiper-slide">Slide 7</div>
+                                            <div class="swiper-slide">Slide 8</div>
+                                            <div class="swiper-slide">Slide 9</div>...
+                                        </div>
+                                        <!-- If we need pagination -->
+                                        <div class="swiper-pagination"></div>
+                                        <!-- If we need navigation buttons -->
+                                        <div class="swiper-button-prev swiper-button-hidden"></div>
+                                        <div class="swiper-button-next swiper-button-hidden"></div>
+                                    </div>
+                                </div>  
                         </div>
+                    </div>
             <h3>Fan Manga</h3>
                         <div class="fanmanga">
                             <a href=""> <img src="images/dbza1.jpg" alt=""> </a>
                             <a href=""> <img src="images/dbza2.jpg" alt=""> </a>
                         </div>
         </section>
+        <!-- Slider main container -->
     </main>
-    <!-- Slider main container -->
-<div class="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      ...
     </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-  
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-  
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-  </div>
-  
-  <footer>
-      <div class="flex">
-          <div class="logocontact flex">
-              <i class="fa-solid fa-phone-volume"></i>
-              <i class="fa-solid fa-envelope"></i>   
-              <div class="burger">
-                  <label for="burger"><i class="fa-solid fa-bars"></i></label> 
-                  <input class="chequebox" type="checkbox" id="burger">
-                  <nav>
-                      <ul>
-                          <li class="li">
-                              <a href="#compétences">Compétences</a>
-                          </li>
-                          <li class="li">
-                              <a href="logiciel"> logiciel</a>
-                          </li>
-                          <li class="li">
-                              <a href="experience">Expériences</a>
-                          </li>
-                          <li>
-                              <a href="#portefolio">Portefolio</a>
-                          </li>
-                      </ul>
-                  </nav>
-              </div>
-          </div>
-      </div>
-  </footer>
+    <footer>
+        <div class="flex">
+            <div class="logocontact flex">
+                <i class="fa-solid fa-phone-volume"></i>
+                <i class="fa-solid fa-envelope"></i>   
+                <div class="burger">
+                    <label for="burger"><i class="fa-solid fa-bars"></i></label> 
+                    <input class="chequebox" type="checkbox" id="burger">
+                    <nav>
+                        <ul>
+                            <li class="li">
+                                <a href="#compétences">Compétences</a>
+                            </li>
+                            <li class="li">
+                                <a href="logiciel"> logiciel</a>
+                            </li>
+                            <li class="li">
+                                <a href="experience">Expériences</a>
+                            </li>
+                            <li>
+                                <a href="#portefolio">Portefolio</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/swipe.js"></script>
+
 </body>
 
 
