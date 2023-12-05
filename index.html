@@ -71,7 +71,7 @@
                         <h3>Livres Officiels</h3>
                         <a href=""> <img src="images/livre.jpg" alt=""> </a>
                     </div>
-            <h3>Avis</h3>
+            <h3 id="Avis">Avis</h3>
                     <div class="avis" >
                         <div class="positionRelative">  
                             <a href=""> <img src="images/avis0.png" alt=""> </a>
@@ -97,8 +97,8 @@
                                             <div class="swiper-slide"> 
                                                 <p> ROMANE OTAKU:<br>
                                                     "Des thèmes qui cassent un peu les codes qu'on a l'habitude de voir ! <br>
-                                                    Et en plus c'est très joli, tout en couleur et on apprend comment
-                                                    aller de bulles en bulles."</p>
+                                                    Et en plus c'est très joli, tout en couleur <br>
+                                                    et on apprend comment aller de bulles en bulles."</p>
                                             </div>
                                             <div class="swiper-slide">
                                                 <p>L AND FAMILLY: <br>
@@ -113,25 +113,49 @@
                                                     ma fille est fan et elle les regarde souvent !"
                                                 </p>
                                             </div>
-                                            <div class="swiper-slide">Slide 6</div>
-                                            <div class="swiper-slide">Slide 7</div>
-                                            <div class="swiper-slide">Slide 8</div>
-                                            <div class="swiper-slide">Slide 9</div>...
-                                        </div>
-                                        <!-- If we need pagination -->
-                                        <div class="swiper-pagination"></div>
-                                        <!-- If we need navigation buttons -->
-                                        <div class="swiper-button-prev swiper-button-hidden"></div>
-                                        <div class="swiper-button-next swiper-button-hidden"></div>
+                                            <div class="swiper-slide">
+                                                <p>NOUVEAUTÉS JEUNESSE:
+                                                    "Des livres originaux qui se lisent de droite à gauche et qui offrent des bulles
+                                                    et des personnages qui évoquent le monde des mangas et chaque volume offre une
+                                                    histoire différente."
+                                                </p>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <p>MANGA CAFÉ NEWS:
+                                                    "C'est un manga pour les petits, pas de baston, pas de violence, c'est vraiment
+                                                    l'histoire de deux enfants et leur vie quotidienne.
+                                                    On développe l'imaginaire et en plus les enfants peuvent s'identifier aux personnages."
+                                                </p>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <p>BELLE EN BULLES:
+                                                    "Des livres pour les petits et qu'on peut lire à la japonaise,
+                                                    des thèmes moderne et des bonus où on parle de la façon de faire des hiraganas
+                                                    que j'ai beaucoup aimé."
+                                                </p>
+                                            </div>
+                                            <div class="swiper-slide"><p>À venir...</p></div>...
+                                            </div>
+                                            <!-- If we need pagination -->
+                                            <div class="swiper-pagination"></div>
+                                            <!-- If we need navigation buttons -->
+                                            <div class="swiper-button-prev swiper-button-hidden"></div>
+                                            <div class="swiper-button-next swiper-button-hidden"></div>
                                     </div>
                                 </div>  
                         </div>
                     </div>
-            <h3>Fan Manga</h3>
+            <h3 id="FanManga">Fan Manga</h3>
                         <div class="fanmanga">
                             <a href=""> <img src="images/dbza1.jpg" alt=""> </a>
                             <a href=""> <img src="images/dbza2.jpg" alt=""> </a>
                         </div>
+                    <div>
+                        <p>SCAN GRATUIT SUR MANGADRAFT</p>
+                        <a href="https://www.mangadraft.com/user/oni-tetsubo" target="_blank">
+                            <img src="./images/logoMD.png" alt="Lien Scan gratuit">
+                        </a>
+                    </div>
         </section>
         <!-- Slider main container -->
     </main>
@@ -143,22 +167,24 @@
                 <i class="fa-solid fa-envelope"></i>   
                 <div class="burger">
                     <label for="burger"><i class="fa-solid fa-bars"></i></label> 
-                    <input class="chequebox" type="checkbox" id="burger">
+                    <input onclick="openNav()" class="chequebox" type="checkbox" id="burger">
                     <nav>
-                        <ul>
-                            <li class="li">
-                                <a href="#compétences">Compétences</a>
-                            </li>
-                            <li class="li">
-                                <a href="logiciel"> logiciel</a>
-                            </li>
-                            <li class="li">
-                                <a href="experience">Expériences</a>
-                            </li>
-                            <li>
-                                <a href="#portefolio">Portefolio</a>
-                            </li>
-                        </ul>
+                        <section id="menu_nav">
+                            <ul>
+                                <li class="li">
+                                    <a href="#compétences" onclick="closeNav()">Compétences</a>
+                                </li>
+                                <li class="li">
+                                    <a href="#portefolio" onclick="closeNav()"> Portfolio</a>
+                                </li>
+                                <li class="li">
+                                    <a href="#Avis" onclick="closeNav()">Avis</a>
+                                </li>
+                                <li>
+                                    <a href="#FanManga" onclick="closeNav()">Fan Manga</a>
+                                </li>
+                            </ul>
+                        </section>
                     </nav>
                 </div>
             </div>

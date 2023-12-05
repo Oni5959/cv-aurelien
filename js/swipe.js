@@ -1,4 +1,6 @@
+let nav = document.getElementById("menu_nav");
 console.log("test");
+
 
 const swiper = new Swiper('.swiper', {
   // Optional parameters
@@ -13,7 +15,6 @@ const swiper = new Swiper('.swiper', {
   // autoplay: {
   //   delay: 5000,
   // },
- 
   
   // Navigation arrows
   navigation: {
@@ -42,7 +43,13 @@ const swiper = new Swiper('.swiper', {
         spaceBetween: 40
       }
     }
-
   });
 
-
+function openNav(){
+  nav.style.width = "100%";
+  nav.style.display ="block";
+}
+function closeNav(){
+  nav.style.width = "0";
+  nav.style.display ="none";
+}
