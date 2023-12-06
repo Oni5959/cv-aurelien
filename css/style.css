@@ -329,7 +329,103 @@ section > div {
 #contacte{
     margin: auto;
 }
+@media screen and (min-width: 768px) and (max-width:1023px){
+    .ontop {
+        position: absolute;
+        top: 17%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .swiper {
+        height: 175px;
+    }
+    .table {
+        height: 10%;
+    }
+    .table .monitor-wrapper {
+    background: #050321;
+    width: 70%;
+    height: 50%;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    margin: 25px auto;
+    margin-top: 25px;
+    margin-top: 9%;
+    
+    }
+    .table .monitor-wrapper .monitor {
+        width: 95%;
+        height: 65%;
+        background-color: #344151;
+        overflow: hidden;
+        white-space: nowrap;
+        box-shadow: inset 0px 5px 10px 2px rgba(0, 0, 0, 0.3);
+        border-radius: 50px;
+        margin: auto;
+    }
+    .table p {
+        font-family: "Caveat", cursive;
+        font-size: x-large;
+        position: relative;
+        display: inline-block;
+        animation: move 15s infinite linear;
+        color: #ff914d;
+        background-color: none;
+    }
+    .x {
+        top: 20%;
+        left: 1%;
+    }
+    .insta {
+        top: 11%;
+        left: 1%;
+    }
+    .ddl {
+        top: 1%;
+        left: 1%;
+        padding: 3% 0%;
+    }
+    .mesCompetences {
+        margin-left: 5%;
+    }
+    .mesCompetences img {
+        width: 70%;
+    }
+    a > img {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        padding: 3%;
+        box-sizing: border-box;
+        margin: auto;
+    }
+    .container_avis {
+        border: #050321 solid 5px;
+        box-sizing: border-box;
+        width: 61%;
+        height: 35%;
+        background-color: #f0f8ff;
+        left: 20%;
+        bottom: 10%;
+    }
+    .swiper-slide {
+        flex-shrink: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transition-property: transform;
+        display: block;
+    }
+    .swiper-slide p{
+        line-height: 2rem;
+        width: 100%;
+        font-size: x-large;
+    } 
+}   
+@media screen and (min-width: 1024px) {
 
+}
 
 
 
