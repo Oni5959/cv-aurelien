@@ -61,7 +61,7 @@ body {
     width: 50px;
 }
 .insta {
-    top: 10%;
+    top: 8%;
     left: 3px;
 }
 .x {
@@ -69,7 +69,7 @@ body {
     left: 3px;
 }
 .in {
-    top: 24%;
+    top: 26%;
     left: 3px;
 }
 .insta:hover  {
@@ -87,13 +87,13 @@ body {
 /* mon moniteur */
 .ontop {
     position: absolute;
-    top: 21%;
+    top: 0%;
     left: 0;
     right: 0;
     margin: auto;
 }
 .table {
-    height: 12%;
+    height: 10%;
 }
 .table .monitor-wrapper {
     background: #050321;
@@ -656,8 +656,7 @@ html {
     }
     .table p {
         font-size: 4rem;
-        top: 10%;
-    }
+        top: 5%;
     }
     .commentaire{
         display: none;
@@ -674,6 +673,12 @@ html {
         to {
             left: -80%;
         }
+    }
+    .ontop {
+        top: 13%;
+    }
+    .table {
+        height: 10%;
     }
 }
 
