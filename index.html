@@ -6,77 +6,252 @@
     <link rel="stylesheet" href="./css/reset.css" />    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <title>CV</title>
 </head>
 <body>
     <header>
-        <div>
-            <a class="ddl" href="./images/Aurélien-Meunier.pdf" download="Aurélien-Meunier.pdf" target="_blank">CV</a>
-        </div>
-
-        <img class="imageprofil" src="./images/Blue and Peach Gradient Facebook Profile Picture.png" alt="">
-        <div class="table ontop">
-            <div class="monitor-wrapper center">
-                <div class="monitor center">
-                <p>Aurélien MEUNIER alias Oni TETSUBO</p>
+        <div class="reseauNav">
+                
+                <a class="ddl" href="./images/Aurélien-Meunier.pdf" target="_blank"> 
+                    <i class="fa-solid fa-download"></i><p class="commentaire2p">cv</p> 
+                </a>
+                <a class="insta" href="https://www.instagram.com/oni_tetsubo_officiel_/"> <img src="images/Instagram.png" alt=""> </a>
+                <a class="x" href="https://twitter.com/OniTetsubo59"> <img src="images/X.png" alt=""> </a>
+                <a class="in" href="https://www.linkedin.com/in/aurelien59/"> <img src="images/link.png" alt=""> </a>
+            <div class="profile" >
+                <img class="imageprofil" src="./images/Blue and Peach Gradient Facebook Profile Picture.png" alt="">
+                <div class="table ontop">
+                    <div class="monitor-wrapper center">
+                        <div class="monitor center">
+                            <p>Aurélien MEUNIER alias Oni TETSUBO</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
     <main>
         <section class="presentation">
-            <h2>Présentation</h2>
-                <p>Auteur/Illustrateur autodidacte spécialisé dans le manga.
-                    <p>
-                    Dessinateur de livres pour enfant,
-                    j'aimerai partager ma passion du dessin en animant des ateliers collectifs. 
-                    <bp>
-                    Vous pourrez trouvez mes oeuvres, informations et <span>prestations</span> vie ce <span>CV</span> numérique.
-                    <br>
-                    Pour toutes questions n'hésitez pas à me contacter.
-                    <br>
-                    Mon projet est de réaliser mon propre manga !
-                </p>
-                <h2>Portefolio</h2>
-                <div >
-                    <h3>Livres Officiels</h3>
-                    <a href=""> <img src="images/livre.jpg" alt=""> </a>
-                    <h3>Fan Manga</h3>
-                    <a href=""> <img src="images/dbza1.jpg" alt=""> </a>
-                    <h3>Illustrations</h3>
-                    <a href=""> <img src="images/illustration.jpg" alt=""> </a>
+            <h2 class="presentationh2" >Présentation</h2>
+                <div class="presentationTxt" >
+                    <p>Auteur/Illustrateur autodidacte spécialisé dans le manga. <br>
+                    Dessinateur de livres pour enfant,j'aimerai partager ma passion du dessin en animant des ateliers collectifs. <br>
+                    Vous pourrez trouvez mes oeuvres, informations et prestations vie ce CV numérique. <br>
+                    Pour toutes questions n'hésitez pas à me contacter. <br>
+                    Mon projet est de réaliser mon propre manga !</p>
+                </div >
+            <h2 id="compétences">Mes Compétences</h2>
+            <div >
+                <h3>Logiciels</h3>
+                <div class="mesCompetences">
+                    <div>
+                        <img src="./images/paint_icon.png" alt="ClipStudio"> <br>
+                    </div>
+                    <div>
+                        <img src="./images/html5.png" alt="html">
+                    </div>
+                    <div>
+                        <img src="./images/css3.png" alt="css">
+                    </div>
+                </div>            
+                <h3>Savoir être</h3>
+                <div id="savoireEtre">
+                    <p>-Respectueux</p>
+                    <p>-Empathique</p>
+                    <p>-Ésprit d'équipe</p>
+                    <p>-Capacité d'adaptation</p>
                 </div>
+            </div>
+            <div >
+                <h3>Savoir faire</h3>
+                <div id="savoireFaire">
+                    <p>-Utilisation tablette graphique</p>
+                    <p>-Dessin et colorisation </p>
+                    <p>-Création de storyboard</p>
+                    <p>-Pro-actif</p>
+                    <p>-Autonome</p>
+                    <p>-Réaliser des prestations</p>
+                </div>
+                </div>
+                <div>
+            <h2 id="portefolio">Portefolio</h2>
+                    <div >
+                        <h3>Livres Officiels</h3>
+                        <a href=""> <img src="images/livre.jpg" alt=""> </a>
+                    </div>
+            <h3 id="Avis">Avis</h3>
+                    <div class="avis" >
+                        <div class="positionRelative">  
+                            <a href=""> <img src="images/avis0.png" alt=""> </a>
+                                <div class="container_avis positionAbsolute">
+                                    <div class="swiper ">
+                                        <!-- Additional required wrapper -->
+                                        <div class="swiper-wrapper ">
+                                            <!-- Slides -->
+                                            <div class="swiper-slide">
+                                                <p class="commentaire"> SARACONTEQUOISURINTERNET:
+                                                    "C'est atypique je trouve pour des histoires pour enfants,
+                                                    c'est ce qui m'a tout de suite plu,
+                                                    car j'essaie d'apprendre à mon enfant
+                                                    qu'il n'y a pas de bonne fançon de faire ou de penser !"
+                                                </p>
+                                                <p class="commentaire2"> SARACONTEQUOISURINTERNET: <br>
+                                                    "C'est atypique je trouve pour des histoires pour enfants,
+                                                    c'est ce qui m'a tout de suite plu,
+                                                    car j'essaie d'apprendre à mon enfant
+                                                    qu'il n'y a pas de bonne fançon de faire ou de penser !"
+                                                </p>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <p class="commentaire" > LA TRIBU D'ELSA: <br>
+                                                    "C'est une belle colletion pour initier nos petits à la lecture manga ! <br>
+                                                    Pour moi, c'est vraiment une agréable surprise !"
+                                                </p>
+                                                <p class="commentaire2" > LA TRIBU D'ELSA: <br>
+                                                    "C'est une belle colletion pour initier nos petits à la lecture manga ! <br>
+                                                    Pour moi, c'est vraiment une agréable surprise !"
+                                                </p>
+                                            </div>
+                                            <div class="swiper-slide"> 
+                                                <p class="commentaire"> ROMANE OTAKU: <br>
+                                                    "Des thèmes qui cassent un peu les codes qu'on a l'habitude de voir !
+                                                    Et en plus c'est très joli, tout en couleur
+                                                    et on apprend comment aller de bulles en bulles."
+                                                </p>
+                                                <p class="commentaire2"> ROMANE OTAKU: <br>
+                                                        "Des thèmes qui cassent un peu les codes qu'on a l'habitude de voir ! <br>
+                                                        Et en plus c'est très joli, tout en couleur
+                                                        et on apprend comment aller de bulles en bulles."
+                                                    </p>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <p class="commentaire">L AND FAMILLY: <br>
+                                                    "Les personnages sont attachant et ils rencontrent les mêmes problèmes dans la vie de tous les jours
+                                                    que nos enfants, de quoi ouvrir le dialogue en famille."
+                                                </p>
+                                                <p class="commentaire2">L AND FAMILLY: <br>
+                                                    "Les personnages sont attachant et ils rencontrent les mêmes problèmes dans la vie de tous les jours
+                                                    que nos enfants, de quoi ouvrir le dialogue en famille."
+                                                </p>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <p class="commentaire">MARION MVT JAPAN:
+                                                    "Les plus petits y verront des histoires sur Lya et Dan avec des morales simples à comprendre
+                                                    et les plus grands pourront déchiffrer et lire les bulles qui sont fléchées.
+                                                    Ma fille est fan et elle les regarde souvent !"
+                                                </p>
+                                                <p class="commentaire2" >MARION MVT JAPAN: <br>
+                                                    "Les plus petits y verront des histoires sur Lya et Dan avec <br>
+                                                    des morales simples à comprendre et les plus grands pourront déchiffrer et lire les bulles qui sont fléchées. <br>
+                                                    Ma fille est fan et elle les regarde souvent !"
+                                                </p>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <p class="commentaire">NOUVEAUTÉS JEUNESSE:
+                                                    "Des livres originaux qui se lisent de droite à gauche et qui offrent des bulles
+                                                    et des personnages qui évoquent le monde des mangas et chaque volume offre une
+                                                    histoire différente."
+                                                </p>
+                                                <p class="commentaire2">NOUVEAUTÉS JEUNESSE: <br>
+                                                    "Des livres originaux qui se lisent de droite à gauche et qui offrent des bulles
+                                                    et des personnages qui évoquent le monde des mangas <br>
+                                                    et chaque volume offre une histoire différente."
+                                                </p>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <p class="commentaire">MANGA CAFÉ NEWS: 
+                                                    "C'est un manga pour les petits, pas de baston, pas de violence, c'est vraiment
+                                                    l'histoire de deux enfants et leur vie quotidienne.
+                                                    On développe l'imaginaire et en plus les enfants peuvent s'identifier aux personnages."
+                                                </p>
+                                                <p class="commentaire2">MANGA CAFÉ NEWS: <br>
+                                                    "C'est un manga pour les petits, pas de baston, pas de violence, c'est vraiment
+                                                    l'histoire de deux enfants et leur vie quotidienne.
+                                                    On développe l'imaginaire et en plus les enfants peuvent s'identifier aux personnages."
+                                                </p>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <p class="commentaire">BELLE EN BULLES: <br>
+                                                    "Des livres pour les petits et qu'on peut lire à la japonaise,
+                                                    des thèmes moderne et des bonus où on parle de la façon de faire des hiraganas
+                                                    que j'ai beaucoup aimé."
+                                                </p>
+                                                <p class="commentaire2">BELLE EN BULLES: <br>
+                                                    "Des livres pour les petits et qu'on peut lire à la japonaise,
+                                                    des thèmes moderne et des bonus où on parle de la façon de faire des hiraganas
+                                                    que j'ai beaucoup aimé."
+                                                </p>
+                                            </div>
+                                            <div class="swiper-slide"><p>À venir...</p></div>
+                                            </div>
+                                            <!-- If we need pagination -->
+                                            <div class="swiper-pagination"></div>
+                                            <!-- If we need navigation buttons -->
+                                            <div class="swiper-button-prev swiper-button-hidden"></div>
+                                            <div class="swiper-button-next swiper-button-hidden"></div>
+                                    </div>
+                                </div>  
+                        </div>
+                    </div>
+            <div> 
+                <h3 id="FanManga">Fan Manga</h3>
+                    <div >
+                        <p>LECTURE GRATUITE SUR MANGADRAFT</p>
+                        <a class="imgmd" href="https://www.mangadraft.com/user/oni-tetsubo" target="_blank">
+                            <img  src="./images/logoMD.png" alt="Lien Scan gratuit">
+                        </a>
+                    </div>
+                    <div class="fanmanga">
+                        <a href="https://www.mangadraft.com/manga/dragon-ball-z-alternative"> <img src="images/dbza1.jpg" alt=""> </a>
+                        <a href="https://www.mangadraft.com/manga/dragon-ball-z-alternative-tome-2"> <img src="images/dbza2.jpg" alt=""> </a>
+                    </div>
+                    <hr>
+            </div>
+            <div class="btn1">
+                <a class="btn2" href="#"><i class="fa-solid fa-arrow-up"></i></a>
+            </div>
         </section>
     </main>
-</body>
-<footer>
-    <div class="flex">
-        <div class="logocontact flex">
-            <i class="fa-solid fa-phone-volume"></i>
-            <i class="fa-solid fa-envelope"></i>   
-            <div class="burger">
-                <label for="burger"><i class="fa-solid fa-bars"></i></label> 
-                <input class="chequebox" type="checkbox" id="burger">
-                <nav>
-                    <ul>
-                        <li class="li">
-                            <a href="competence">Compétences</a>
-                        </li>
-                        <li class="li">
-                            <a href="logiciel"> logiciel</a>
-                        </li>
-                        <li class="li">
-                            <a href="experience">Expériences</a>
-                        </li>
-                        <li>
-                            <a href="portefolio">Portefolio</a>
-                        </li>
-                    </ul>
-                </nav>
+    <footer>
+        <div class="flex">
+            <div class="logocontact flex">
+                <div>
+                    <a href="tel:+33783140005"><i class="fa-solid fa-phone-volume"style="color: black"></i></a>
+                </div>
+                <div>
+                    <a href="mailto:oni.tetsubo@outlook.fr"><i class="contacte fa-solid fa-envelope"style="color: black"></i> </a>     
+                </div>
+                <div class="burger">
+                    <label for="burger"><i class="fa-solid fa-bars"></i></label> 
+                    <input onclick="openNav()" class="chequebox" type="checkbox" id="burger">
+                    <nav>
+                        <section id="menu_nav">
+                            <ul>
+                                <li class="li">
+                                    <a href="#compétences" onclick="closeNav()">Compétences</a>
+                                </li>
+                                <li class="li">
+                                    <a href="#portefolio" onclick="closeNav()"> Portfolio</a>
+                                </li>
+                                <li class="li">
+                                    <a href="#Avis" onclick="closeNav()">Avis</a>
+                                </li>
+                                <li>
+                                    <a href="#FanManga" onclick="closeNav()">Fan Manga</a>
+                                </li>
+                            </ul>
+                        </section>
+                    </nav>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
+    <script src="js/swipe.js"></script>
+   
+</body>
 
 
 </html>
