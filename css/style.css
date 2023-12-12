@@ -117,10 +117,10 @@ body {
 }
 @keyframes move {
     from {
-        left: 500px;
+        left: 50%;
     }
     to {
-        left: -800px;
+        left: -80%;
     }
 }
 /* Présentation */
@@ -283,7 +283,7 @@ h3 {
     font-size: x-large;
     text-align: center;
     padding: 20px;
-    line-height: 2.2rem;
+    line-height: 1.5rem;
 }
 a > img {
     width: 100%;
@@ -352,7 +352,12 @@ html {
 .btn2 {
     color: black;
 }
-
+.commentaire{
+    display: block;
+}
+.commentaire2{
+    display: none;
+}
 /* Version Tablette */
 @media screen and (min-width: 768px) and (max-width:1023px){
     .ontop {
@@ -528,10 +533,10 @@ html {
 
     }
     .mesCompetences {
-        margin-left: 5%;
+        margin-left: 9%;
     }
     .mesCompetences img {
-        width: 70%;
+        width: 50%;
     }
     a > img {
         width: 70%;
@@ -596,7 +601,7 @@ html {
         font-weight: bolder;
     }
     .presentation p {
-        font-size: xx-large;
+        font-size: xxx-large;
         font-weight: bolder;
     }
     .presentationTxt > p {
@@ -606,6 +611,29 @@ html {
     .flex{
         display: none;
     }
+    .table p {
+        font-size: xxx-large;
+    }
+    .commentaire{
+        display: none;
+    }
+    .commentaire2{
+        display: block;
+        padding: 20px;
+        line-height: 1.5rem;
+    }  
+    .presentation p {
+        font-size: xxx-large;
+        font-weight: bolder;
+        line-height: 2.2rem;
+    }
+    @keyframes move {
+        from {
+            left: 100%;
+        }
+        to {
+            left: -80%;
+        }
 }
 
 
