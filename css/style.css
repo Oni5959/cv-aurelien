@@ -61,7 +61,7 @@ body {
     width: 50px;
 }
 .insta {
-    top: 6%;
+    top: 7%;
     left: 3px;
 }
 .x {
@@ -69,7 +69,7 @@ body {
     left: 3px;
 }
 .in {
-    top: 18%;
+    top: 17.2%;
     left: 3px;
 }
 .insta:hover  {
@@ -366,6 +366,7 @@ html {
 .commentaire2{
     display: none;
 }
+
 /* Version Tablette */
 @media screen and (min-width: 768px) and (max-width:1023px){
     .ontop {
@@ -412,19 +413,19 @@ html {
         background-color: none;
     }
     .in{
-        top: 24%;
+        top: 26%;
         left: 1%;
     }
     .x {
-        top: 16%;
+        top: 18%;
         left: 1%;
     }
     .insta {
-        top: 8%;
+        top: 10%;
         left: 1%;
     }
     .ddl {
-        top: 2%;
+        top: 1%;
         left: 1%;
     }
     .mesCompetences {
@@ -467,8 +468,6 @@ html {
     }
     .swiper-slide p{
         line-height: 2rem;
-        width: 100%;
-        font-size: x-large;
     }
     @keyframes move {
         from {
@@ -478,6 +477,23 @@ html {
             left: -80%;
         }
     }
+    .table p {
+        font-size: xxx-large;
+    }
+    .swiper-slide {
+        height: 130%;
+        left: 0;
+        width: 100%;
+    }
+    .commentaire{
+        display: none;
+    }
+    .commentaire2{
+        display: block;
+
+        line-height: 1.5rem;
+    } 
+    
 } 
 
 
@@ -541,16 +557,16 @@ html {
         left: 1%;
     }
     .ddl {
-        top: 1%;
-        left: 1%;
-        padding: 2%;
+        top: 6%;
+        left: 1.5%;
+        padding: 1.5%;
         box-sizing: border-box;
     }
     .ddl:hover{
         background-color: #344151;
         color: #ff914d;
         transition: 1000ms;
-        padding: 2% 121px;
+        padding: 1.5% 121px;
         transform: translateY(-0px);
     }
 
@@ -616,28 +632,31 @@ html {
         margin: auto;
     }
     h3 {
-        font-size: xxx-large;
+        font-size: 3rem;
         font-weight: bolder;
         width: 20%;
     }
     
     h2 {
-        font-size: xxx-large;
+        font-size: 4rem;
         font-weight: bolder;
     }
     .presentation p {
-        font-size: xxx-large;
         font-weight: bolder;
+        line-height: 3rem;
+        font-size: 2rem;
     }
     .presentationTxt > p {
-        font-size: xx-large;
+        font-size: 4rem;
         padding: 10%;
     }
     .flex{
         display: none;
     }
     .table p {
-        font-size: xxx-large;
+        font-size: 4rem;
+        top: 10%;
+    }
     }
     .commentaire{
         display: none;
@@ -647,11 +666,6 @@ html {
         padding: 20px;
         line-height: 1.5rem;
     }  
-    .presentation p {
-        font-size: xxx-large;
-        font-weight: bolder;
-        line-height: 3rem;
-    }
     @keyframes move {
         from {
             left: 100%;
