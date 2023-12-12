@@ -61,15 +61,15 @@ body {
     width: 50px;
 }
 .insta {
-    top: 7%;
+    top: 10%;
     left: 3px;
 }
 .x {
-    top: 12%;
+    top: 17%;
     left: 3px;
 }
 .in {
-    top: 17.2%;
+    top: 24%;
     left: 3px;
 }
 .insta:hover  {
@@ -87,13 +87,13 @@ body {
 /* mon moniteur */
 .ontop {
     position: absolute;
-    top: 17%;
+    top: 21%;
     left: 0;
     right: 0;
     margin: auto;
 }
 .table {
-    height: 10%;
+    height: 12%;
 }
 .table .monitor-wrapper {
     background: #050321;
