@@ -835,8 +835,10 @@ html {
             width: 70%;
         }
         .presentationTxt > p {
-            font-size: 4rem;
+            font-size: 3rem;
             padding: 10%;
+            line-height: 4rem;
+        }
         }
         .flex{
             display: none;
@@ -896,7 +898,13 @@ html {
             padding: 3%;
             width: 95%;
         }
+        .swiper-slide>p{
+            line-height: 2rem;
+            font-size: 2rem;
+            width: 95%;
+        }
 }
+
 
 
 
