@@ -756,7 +756,7 @@ html {
             background-color: #344151;
             color: #ff914d;
             transition: 1000ms;
-            padding: 1.5% 121px;
+            padding: 1% 121px;
             transform: translateY(-0px);
         }
         .mesCompetences {
@@ -835,10 +835,9 @@ html {
             width: 70%;
         }
         .presentationTxt > p {
-            font-size: 3rem;
+            font-size: 4rem;
             padding: 10%;
             line-height: 4rem;
-        }
         }
         .flex{
             display: none;
