@@ -832,6 +832,7 @@ html {
         .presentation p {
             line-height: 3rem;
             font-size: 2rem;
+            width: 70%;
         }
         .presentationTxt > p {
             font-size: 4rem;
@@ -846,6 +847,7 @@ html {
         }
         .presentation p {
             padding: 3%;
+        
         }
         .commentaire{
             display: none;
@@ -884,10 +886,15 @@ html {
             padding: 2%;
             width: 100%;
         }
-        .presentation p {
-            line-height: 5%;
+        .flexrowpc p {
+            line-height: 5rem;
             font-size: 3rem; 
             padding: 0%;
+        }
+        .scanmanga p{
+            font-size: xx-large;
+            padding: 3%;
+            width: 95%;
         }
 }
 
