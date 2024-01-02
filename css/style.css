@@ -29,7 +29,7 @@ body {
     margin: 0%;
     width: calc(100%3);
 }
-.ddl, .insta, .x, .in{
+.ddl, .linktree {
     position: fixed;
     color: #344151;
     background-color: #ff914d;
@@ -44,7 +44,7 @@ body {
     cursor: pointer;
 }
 
-.ddl:hover, .insta:hover, .x:hover, .in:hover {
+.ddl:hover, .linktree:hover {
     background-color: #344151;
     color: #ff914d;
     transition : 1000ms;
@@ -60,27 +60,15 @@ body {
 .cv{
     width: 50px;
 }
-.insta {
+.linktree {
     top: 9%;
     left: 3px;
 }
-.x {
-    top: 15%;
-    left: 3px;
-}
-.in {
-    top: 22%;
-    left: 3px;
-}
-.insta:hover  {
+
+.linktree:hover  {
     padding: 0 47px;
 }
-.x:hover{
-    padding: 0 44px;
-}
-.in:hover{
-    padding: 0 44px;
-}
+
 .profile{
     display:contents ;
 }
@@ -412,15 +400,8 @@ html {
         color: #ff914d;
         background-color: none;
     }
-    .in{
-        top: 26%;
-        left: 1%;
-    }
-    .x {
-        top: 18%;
-        left: 1%;
-    }
-    .insta {
+
+    .linktree {
         top: 10%;
         left: 1%;
     }
@@ -442,7 +423,7 @@ html {
         box-sizing: border-box;
         margin: auto;
     }
-    .ddl:hover, .insta:hover, .x:hover {
+    .ddl:hover, .linktree:hover {
         background-color: #344151;
         color: #ff914d;
         transition: 1000ms;
@@ -545,15 +526,8 @@ html {
         color: #ff914d;
         background-color: none;
     }
-    .x {
-        top: 30%;
-        left: 1%;
-    }
-    .in {
-        top: 42%;
-        left: 1%;
-    }
-    .insta {
+
+    .linktree {
         top: 18%;
         left: 1%;
     }
@@ -587,7 +561,7 @@ html {
         box-sizing: border-box;
         margin: auto;
     }
-    .insta:hover, .x:hover, .in:hover {
+    .linktree:hover {
         background-color: #344151;
         color: #ff914d;
         transition: 1000ms;
@@ -734,15 +708,8 @@ html {
             color: #ff914d;
             background-color: none;
         }
-        .x {
-            top: 30%;
-            left: 3%;
-        }
-        .in {
-            top: 44%;
-            left: 3%;
-        }
-        .insta {
+
+        .linktree {
             top: 16%;
             left: 3%;
         }
@@ -760,7 +727,7 @@ html {
             transform: translateY(-0px);
         }
         .mesCompetences {
-            margin-left: 22%;
+            margin-left: 12%;
         }
         .mesCompetences img {
             width: 35%;
@@ -773,7 +740,7 @@ html {
             box-sizing: border-box;
             margin: auto;
         }
-        .insta:hover, .x:hover, .in:hover {
+        .linktree:hover {
             background-color: #344151;
             color: #ff914d;
             transition: 1000ms;
