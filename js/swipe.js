@@ -1,5 +1,5 @@
 let nav = document.getElementById("menu_nav");
-console.log("test");
+
 
 
 const swiper = new Swiper('.swiper', {
