@@ -704,7 +704,7 @@ html {
         }
         .table .monitor-wrapper .monitor {
             width: 90%;
-            height: 70%;
+            height: 55%;
             background-color: #344151;
             overflow: hidden;
             white-space: nowrap;
